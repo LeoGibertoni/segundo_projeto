@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="agecalculatorcss.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="fonte">
+            <a href="../index.html">Simple Tabs</a>&nbsp; &nbsp;
+            <a href="../flashcard/flashcard.html">Flash Card</a>&nbsp; &nbsp;
+            <a href="../agecalculator/agecalculator.html" style="color: black;">Age Calculator</a>&nbsp;  &nbsp;
+            <a href="../tasktracker/tasktracker.html">Task Tracker</a>
+        </div>
+    </header>
+    <main>
+        <h1 class="fontep">Calculadora de idade</h1>
+        <div class="container">
+            <label for="aniversario" style="text-align: left;">Digite a data para saber a idade:</label>
+            <br>
+            <input type="date" name="txtano" id="txtano" min="0"/>
+            <button id="calcular" onclick="verificar()" style="text-align: center;">Calcular Idade</button>
+            <p id="resultado">Insira uma data de nascimento.</p>
+        </div>
+    </main>
+    <footer>
+        <p style="margin-top: 35px; margin-bottom: 0px;">Created by leonardo gibertoni inspired by Developer Roadmaps</p>
+    </footer>
+</body>
+</html>

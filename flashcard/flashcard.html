@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlashCard</title>
+    <link rel="stylesheet" href="flashcardcss.css">
+    <script src="pergunta.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="fonte">
+            <a href="../index.html">Simple Tabs</a>&nbsp; &nbsp;
+            <a href="flashcard.html" style="color: black;">Flash Card</a>&nbsp; &nbsp;
+            <a href="../agecalculator/agecalculator.html">Age Calculator</a>&nbsp;  &nbsp;
+            <a href="../tasktracker/tasktracker.html">Task Tracker</a>
+        </div>
+    </header>
+    <main>
+        <p class="flashcard">Flash Cards</p>
+        <div class="containerporcentagem1">
+            <div id="porcento1"></div>
+            <div id="etapa1"></div>
+            <div id="etapa2" style="position: absolute; right: 740px;"></div>
+        </div>
+        <!-- Perguntas -->
+        <div class="perguntas">
+            <div id="flashcard">
+                <p id="pergunta"></p>
+            </div>
+            <div id="interaction">
+                <button id="voltar" onclick="porcentagemm">Voltar</button>
+                <button id="btn">Mostrar resposta</button>
+                <button id="avancar" onclick="porcentagemm">Avançar</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p style="margin: 0px;">Created by Leonardo Gibertoni inspired by Developer Roadmaps</p>
+    </footer>
+</body>
+</html>
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Tabs</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="fonte">
+            <a href="index.html" style="color: black;">Simple Tabs</a>&nbsp; &nbsp;
+            <a href="flashcard/flashcard.html">Flash Card</a>&nbsp; &nbsp;
+            <a href="agecalculator/agecalculator.html">Age Calculator</a>&nbsp;  &nbsp;
+            <a href="tasktracker/tasktracker.html">Task Tracker</a>
+        </div>
+    </header>
+    <main>
+        <br>
+        <p style="text-align: center;">Projeto JavaScript, Html5 e Css</p>
+        <div>
+            <button onclick="toggle('conteudo')" class="butom">Click-me</button>
+        </div>
+        <div id="conteudo">
+            <img src="IMG/1_ahpxPO0jLGb9EWrY2qQPhg.png" alt="JavaScript">
+        </div>
+    </main>
+    <footer>
+        <p>Created by leonardo gibertoni inspired by Developer Roadmaps</p>
+    </footer>
+    <div class="cookies-msg" id="cookies-msg">
+        <div class="cookies-txt">
+            <img src="IMG/cookie-7.png" alt="cookies">
+            <p>Este site utiliza cookies para melhorar sua experiência. Ao continuar navegando, você concorda com o uso de cookies. Para mais informações, consulte nossa [Política de Cookies].</p>
+
+            <div class="cookies-btn">
+                <button onclick="aceito()">Aceito termos</button>
+            </div>
+        </div>
+    </div>
+    <script src="cookies.js" ></script>
+</body>
+</html>

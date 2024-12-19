@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos</title>
+    <link rel="stylesheet" href="tasktracker.css">
+    <script src="scripttask.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="fonte">
+            <a href="../index.html">Simple Tabs</a>&nbsp;&nbsp;
+            <a href="../flashcard/flashcard.html">Flash Card</a>&nbsp;&nbsp;
+            <a href="../agecalculator/agecalculator.html">Age Calculator</a>&nbsp;&nbsp;
+            <a href="tasktracker.html" style="color: black;">Task Tracker</a>
+        </div>
+    </header>
+    <main>
+        <h1>Lista de Tarefas</h1>
+        <div class="container">
+            <input type="text" id="taskinput" class="taskinput" placeholder="Adicione uma tarefa..">
+            <button onclick="addTask()" class="add">&#11168;</button>
+        </div>
+        <div class="containertask">
+            <ul id="tasklist" class="tasklist"></ul>
+        </div>
+    </main>
+    <footer>
+        <p style="margin: 0px;">Created by leonardo gibertoni inspired by Developer Roadmaps</p>
+    </footer>
+</body>
+</html>
