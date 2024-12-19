@@ -9,7 +9,7 @@ function addTask() {
         li.innerHTML = `
             <input type="checkbox" class="taskCheckbox" onClick="toggleTask(this)">
             <span>${taskText}</span>
-            <button class="deleteButton" onClick="deleteTask(this)" style="font-size: 15px"><img src="lixeira.webp" alt="lixeira" id="lixeira"></button>
+            <button class="deleteButton" onClick="deleteTask(this)" style="font-size: 15px"><img src="lixeira.png" alt="lixeira" id="lixeira"></button>
         `;
 
         taskList.appendChild(li);
